@@ -1,0 +1,8 @@
+kde:
+  models_root: "LSTM"
+  model_name: "HC_Preprocessed_theta_64_3_0.01"
+  window_size: 100
+
+  min_bandwidth: 0.01
+  max_bandwidth: 10
+
