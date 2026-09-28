@@ -1,0 +1,21 @@
+predict:
+  models_root: "LSTM"
+  eeg_root: "eeg_data/train/HC_preprocessed_theta"
+
+
+  window_size: 200
+  step: 200
+  num_channels: 32
+  start_point: 0
+
+
+  model_name: "HC_Preprocessed_theta_64_3_0.01"
+  model_ckpt: "lstm_best.ckpt"
+  scaler_path: "LSTM/global_scaler_theta_std.pkl"
+ 
+
+  # For plotting the real vs prediction signal of a Single channel
+  #single_eeg_file: "eeg_data/TS/GraphiTics_TS_PDG_060326_SO12LO71.vhdr" 
+  #single_channel: 7
+  #single_window_index: 20
+

@@ -1,0 +1,18 @@
+predict_validation:
+  models_root: "LSTM"
+  eeg_root: "eeg_data/validation/HC_preprocessed_theta"
+
+
+
+  window_size: 200
+  step: 200
+  num_channels: 32
+  start_point: 0
+
+
+  model_name: "HC_Preprocessed_theta_64_3_0.01"
+  model_ckpt: "lstm_best.ckpt"
+  scaler_path: "LSTM/global_scaler_theta_std.pkl"
+ 
+
+
