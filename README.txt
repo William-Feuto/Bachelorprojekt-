@@ -24,5 +24,5 @@ Other:
 
 2)the config folder contains the Hydra files
 
-3) Some EEG preprocessed files, scaler and a kde_model with the corresponfing additional files already exist
+3) Some EEG preprocessed files for the theta band, scaler and a kde_model with the corresponfing additional files are already available.
   
