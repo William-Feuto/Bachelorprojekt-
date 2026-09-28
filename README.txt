@@ -1,7 +1,7 @@
  It is assumed that the raw eeg data are saved under the eeg_data folder within subfolders: HC for Healthy EEG, TS for Tourette patients EEG.
 
 Pipeline:
-0) Data_preprocessing :Transfroms the raw eeg data into preprocesssed npy files for Theta, aplha and beta bands)
+0) Data_preprocessing :Transfroms the raw eeg data into preprocesssed npy files for Theta, aplha and beta bands
 
 1) Scaler :Creates a scaler for each eeg band group(only from healthy train group)
 
@@ -24,5 +24,5 @@ Other:
 
 2)the config folder contains the Hydra files
 
-3) Some EEG preprocessed files for the theta band, scaler and a kde_model with the corresponfing additional files are already available.
+3) One EEG preprocessed file each for a theta band model train set, validation set and tourette, a scaler and a kde_model for the samwe theta model with the corresponfing additional kde files are already available.
   
